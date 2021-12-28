@@ -1,0 +1,132 @@
+
+body {
+    
+    background-color: #f0f2f5;
+    font-family: inherit;
+
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    padding: 0 150px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    color: #166fe5;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(51, 50, 50);
+    width: 540px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-top: -30px;
+    font-weight: 500;
+    
+   
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+    width: 30%;
+    position: absolute;
+    right: 8%;
+    bottom: -330px;
+    box-shadow: 1px 2px 10px rgb(182, 182, 182);
+    
+    
+}
+
+input {
+    display: block;
+    padding: 14px 80px 14px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 2px solid rgb(201, 201, 201);
+    font-weight: bold;   
+}
+
+input::placeholder {
+    color: rgb(177, 173, 173);
+    font-size: 16px;
+}
+
+.btn1 {
+    background-color: #166fe5;
+    padding: 15px 135px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 1px 1px 3px rgb(71, 69, 69);
+    margin-bottom: 10px;
+    
+}
+
+.btn1:hover {
+    background-color: rgb(63, 63, 228);
+    color: honeydew;
+
+}
+
+.cont1 {
+    margin-right: 100px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    right: 50px;
+    
+}
+
+.btn2 {
+    background-color: #36a420;
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 3px rgb(71, 69, 69);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15rpx;
+    
+}
+
+.btn2:hover {
+    background-color: #2b9b15;
+    border-color: #36a420;
+}
+
+h4 {
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #1877f2;
+    margin-bottom: 40px;
+}
+
+.child {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
